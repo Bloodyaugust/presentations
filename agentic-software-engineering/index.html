@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Agentic Software Engineering</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/black.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/highlight/monokai.css">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- Title -->
+      <section>
+        <h1>Agentic Software Engineering</h1>
+        <p>Working with AI agents that actually get things done</p>
+      </section>
+
+      <!-- Agenda -->
+      <section data-markdown>
+        <textarea data-template>
+## Agenda
+
+1. Planning &amp; Specs
+2. The Feedback Loop
+3. Tooling Configuration
+4. Agent Empowerment
+5. Security
+        </textarea>
+      </section>
+
+      <!-- Planning & Specs -->
+      <section data-markdown>
+        <textarea data-template>
+## Planning &amp; Specs
+
+- Start with a concrete scope
+- Present up-front, let the agent interview you
+- Direct it: architecture, security, tech-stack
+- Get a final plan — then persist it
+        </textarea>
+      </section>
+
+      <!-- The Feedback Loop -->
+      <section data-markdown>
+        <textarea data-template>
+## The Feedback Loop
+
+- Give agents relevant correctness signals
+- Tests, CI/CD, security scans, dep vulns
+- Capture recurring failures in project memory
+- Engineering the loop is everything
+        </textarea>
+      </section>
+
+      <!-- Tooling Configuration -->
+      <section data-markdown>
+        <textarea data-template>
+## Tooling Configuration
+
+- Skills for repeatable workflows
+- Agents for parallelizable tasks
+- Memory files for pitfalls &amp; domain knowledge
+- Commit config to projects; AOS org-wide
+        </textarea>
+      </section>
+
+      <!-- Agent Empowerment -->
+      <section data-markdown>
+        <textarea data-template>
+## Agent Empowerment
+
+- Agents love CLIs — if none exists, build one
+- MCPs are useful but context-heavy
+- Aggressively allow safe, non-mutative ops
+- Navigate, don't drive &nbsp;_(HOTL &gt; HITL)_
+        </textarea>
+      </section>
+
+      <!-- Security -->
+      <section data-markdown>
+        <textarea data-template>
+## Security
+
+- Permissionless mode: compromise is _when_, not _if_
+- Isolate: devcontainers, hardened Docker, cloud runners
+- Vet 3rd-party memory, connector &amp; prompt tools
+- When in doubt, leave it out
+        </textarea>
+      </section>
+
+      <!-- Closing -->
+      <section>
+        <h2>Questions?</h2>
+      </section>
+
+      <!-- Demos -->
+      <section data-markdown>
+        <textarea data-template>
+## Demos
+
+- E-commerce site from scratch
+- Rust-based videogame
+        </textarea>
+      </section>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/notes/notes.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/markdown/markdown.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/highlight/highlight.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+    });
+  </script>
+</body>
+</html>
