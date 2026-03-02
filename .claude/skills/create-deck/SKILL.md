@@ -1,4 +1,7 @@
-# create-deck
+---
+name: create-deck
+description: Use when the user wants to create a new RevealJS presentation deck. Triggers on /create-deck or when user asks to make, build, or start a new presentation/slide deck.
+---
 
 Guide the user through creating a new RevealJS presentation from scratch.
 

@@ -8,7 +8,7 @@ This repo contains RevealJS presentations. Each deck lives in its own subfolder 
 presentations/
 ├── README.md
 ├── CLAUDE.md
-├── .claude/skills/create-deck.md
+├── .claude/skills/create-deck/SKILL.md
 ├── my-first-talk/
 │   └── index.html
 └── another-deck/
